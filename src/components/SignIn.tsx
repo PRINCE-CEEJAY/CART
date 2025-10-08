@@ -1,9 +1,8 @@
-import React from "react";
-
+import Auth from "./Auth";
 const SignIn = () => {
   return (
-    <div>
-      <h1>SIGN IN</h1>
+    <div className="flex flex-col justify-center items-center min-h-screen">
+      <Auth BtnValue="Sign In" />
     </div>
   );
 };
